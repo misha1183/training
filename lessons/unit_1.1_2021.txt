@@ -108,4 +108,4 @@ bash installer.sh --machine raspberrypi3
 Для Raspberry 4
 bash installer.sh --machine raspberrypi4
 
-Веб интерфейс Portainer - IP adress:8123
+Веб интерфейс Home Assistant - IP adress:8123
