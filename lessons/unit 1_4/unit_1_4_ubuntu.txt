@@ -18,6 +18,7 @@ sudo add-apt-repository universe && sudo apt-get update
 
 ### Обновление пакетов
 sudo apt-get -y upgrade
+sudo apt-get -y dist-upgrade
 
 ### FTP сервер Midnight Commander  APP armor git watchdog ntpdate
 sudo apt-get -y install ftpd mc apparmor git watchdog bluez ntpdate
