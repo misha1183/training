@@ -22,20 +22,13 @@ frontend:
 lovelace:
   mode: yaml
 
-
-hacs:
-  token: !secret HACS_github
-  appdaemon: true
-  python_script: true
-  theme: true
-
 # Text to speech
 tts:
   - platform: google_translate
   
 mqtt:
 #   broker: core-mosquitto  # Локальный брокер
-  broker: 192.168.0.74   # Внешний брокер
+  broker: 192.168.0.70   # Внешний брокер
   discovery: true
   discovery_prefix: homeassistant  
   username: mqtt
