@@ -21,6 +21,9 @@ frontend:
 
 lovelace:
   mode: yaml
+  resources:
+   - url: /hacsfiles/mini-graph-card/mini-graph-card-bundle.js
+     type: module  
 
 # Text to speech
 tts:
