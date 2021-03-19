@@ -23,11 +23,20 @@ docker ps --format "table {{.ID}}\t{{.Image}}\t{{.Status}}\t{{.Names}}"
 Переход в режим root
 sudo su
 
-Установка hass.io (список ключей тут - https://github.com/home-assistant/supervised-installer)
-curl -sL https://raw.githubusercontent.com/home-assistant/supervised-installer/master/installer.sh | bash -s -- -m raspberrypi3
+Update 2021 - 
 
-Мой вариант установочного скрипта (убраны проверки, ведущие к ошибками, которые были на момент съемки урока)
-curl -sL https://raw.githubusercontent.com/kvazis/training/master/install/install.sh | bash -s -- -m raspberrypi3
+Установка hass.io (список ключей тут - https://github.com/home-assistant/supervised-installer)
+
+Скрипт
+curl -Lo installer.sh https://raw.githubusercontent.com/home-assistant/supervised-installer/master/installer.sh
+
+Для Raspberry 3
+bash installer.sh --machine raspberrypi3
+
+Для Raspberry 4
+bash installer.sh --machine raspberrypi4
+
+Веб интерфейс Home Assistant - IP adress:8123
 
 Путь к папке бекапа
 

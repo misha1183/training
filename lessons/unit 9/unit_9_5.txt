@@ -1,8 +1,16 @@
+Внимание - изменена навигация по сайту с момента публикации видео!
+
 Платформа разработчиков - 
 iot.tuya.com
 
-Раздел - Cloud Development
+Регистрация
 
+Подтверждаем, входим, нажимаем справа сверху - IOT Platform
+
+Раздел - Cloud
+Далее попросит верифицировать аккаунт
+
+Раздел - Cloud - Product Center 
 Включить - 
 Authorization management
 Device Management
