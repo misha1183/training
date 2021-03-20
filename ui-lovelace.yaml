@@ -56,7 +56,7 @@ views:
            - type: gauge
              name: Загрузка CPU
              unit: '%'
-             entity: sensor.processor_use
+             entity: sensor.processor_use_percent
              severity:
                 green: 0
                 yellow: 60
