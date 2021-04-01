@@ -8,6 +8,18 @@
 Удобный Telnet клиент - https://www.putty.org/
 admin
 
+ОБНОВЛЕНИЕ ПРОЦЕССА ПРОШИВКИ:
+wget -O /tmp/curl " http://master.dl.sourceforge.net/project/mgl03/bin/curl?viasf=1 "  && chmod + x /tmp/curl
+export PATH="$PATH:/tmp"
+
+Скрипт выбора прошивки
+curl -s -k -L -o /tmp/update.sh https://raw.githubusercontent.com/zvldz/mgl03_fw/main/firmware/mgl03_update.sh && sh /tmp/update.sh
+
+Выбираем по рекомендации тут - 
+https://github.com/AlexxIT/XiaomiGateway3/wiki
+
+СТАРАЯ ВЕРСИЯ:
+
 Ставим curl (разова операция)
 wget -O /tmp/wget http://pkg.musl.cc/wget/mipsel-linux-musln32/bin/wget && chmod +x /tmp/wget
 /tmp/wget -O /tmp/curl http://mipsel.vacuumz.info/files/curl && chmod +x /tmp/curl && rm -rf /tmp/wget
@@ -21,5 +33,3 @@ export PATH="$PATH:/tmp"
 Скрипт выбора прошивки
 curl -s -k -L -o /tmp/update.sh https://gist.github.com/zvldz/b40b4873e3c4c1a64ac536e8ce5dbdad/raw/mgl03_update.sh && sh /tmp/update.sh
 
-Выбираем по рекомендации тут - 
-https://github.com/AlexxIT/XiaomiGateway3/wiki
