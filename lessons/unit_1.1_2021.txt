@@ -51,6 +51,9 @@ managed=true
 
 sudo reboot
 
+sudo systemctl stop dhcpcd
+sudo systemctl disable dhcpcd
+
 sudo nmtui
 
 Activate connection - подключаем wi-fi
