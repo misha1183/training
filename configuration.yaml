@@ -39,6 +39,7 @@ tts:
 
 #Вынос во внешние файлы
 timer: !include includes/timer.yaml
+input_select: !include includes/input_select.yaml
 input_boolean: !include includes/input_boolean.yaml
 group: !include includes/groups.yaml
 scene: !include includes/scenes.yaml
